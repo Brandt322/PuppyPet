@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ececf1;
+    font-size: 62.5%;
+}
+
+.historia {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.historia h2 {
+    font-size: 1.8rem;
+    color: #202123;
+}
+.historia .img-history {
+    padding-bottom: 10px;
+}
+
+.img-history img {
+    border: thin #c0c0c0 solid;
+    padding: 5px;
+    margin: auto;
+    width: 95%;
+    
+}
+
+.img-history figcaption {
+    background-color: #d14f2e;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #202123;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font: italic;
+    padding: 3px;
+    text-align: justify;
+}
