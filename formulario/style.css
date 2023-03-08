@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ececf1;
+    font-size: 62.5%;
+}
+
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #f5f6f7;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 9%);
+    margin: 20px;
+    padding: 20px;
+    color:  rgb(249 139 1);
+    font-weight: 600;
+    
+}
+
+.radios, .radios > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.radios input {
+    margin-right: 5px;
+}
+
+.button {
+    font-size: 1.5rem!important;
+}
